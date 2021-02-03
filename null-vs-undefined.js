@@ -36,6 +36,13 @@
 // let fun = undefined;
 // console.log(fun);
 
+function doSomething(x, y){
+
+    console.log(y);
+    
+    }
+    
+    doSomething(32);
 
 
 
