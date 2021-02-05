@@ -19,3 +19,11 @@ for (let i = 0; i < num.length; i++) {
     console.log(num[i]);
 
 }
+
+function doSomething(x, y = 4){
+
+    console.log(y);
+    
+    }
+    
+    doSomething(3,2);
