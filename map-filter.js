@@ -26,22 +26,22 @@ const result = numbers.map(function(element){
 // maf with arrow function 
 const display = numbers.map(x => x * x);
 
-// console.log(display);
+console.log("display square with arrow function and map:", display);
 // console.log(result);
 
 
 // Filter 
 // bigger of 5
 const bigger = numbers.filter(x => x > 5);
-console.log(bigger);
+// console.log(bigger);
 
 // smaller of 5
 const smaller = numbers.filter(x => x < 5);
-console.log(smaller);
+// console.log(smaller);
 
 
 // find 
 
 const isThere = numbers.find(x => x > 5);
-console.log(isThere);
+// console.log(isThere);
 
